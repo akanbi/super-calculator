@@ -20,7 +20,7 @@ public class ResultActivity extends ActionBarActivity {
 		String number1 = getIntent().getStringExtra(NUMBER1);
 		String number2 = getIntent().getStringExtra(NUMBER2);
 		String result = getIntent().getStringExtra(RESULT);
-		textView.setText("O resultado de " + number1 + " + " + number2 + " é " + result + ".");
+		textView.setText("Resultado: " + number1 + " + " + number2 + " = " + result + ".");
 	}
 
 	@Override
